@@ -54,20 +54,20 @@ sudo make install
 
 ## CLI Usage
 ```bash
-=== EKV Interactive Shell v0.2 (WAL Persistent) ===
+=== EKV Interactive Shell v0.9 ===
 Commands: set <key> <val> | del <key> | get <key> | exit
 
-ekv> set user:1 artem
-OK (persisted)
+ekv> set user:1 some_name1
+OK
 
-ekv> set user:2 gemini
-OK (persisted)
+ekv> set user:2 some_name2
+OK
 
 ekv> get user:1
-=> artem
+=> some_name1
 
 ekv> del user:1
-OK (deleted)
+OK
 
 ekv> get user:1
 (nil)
