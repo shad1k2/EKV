@@ -43,7 +43,7 @@ v                           v
 
 ```bash
 # Clone the repository
-git clone [https://github.com/shad1k2/ekv.git]
+git clone https://github.com/shad1k2/ekv.git
 
 # Build and run interactive CLI
 make run
