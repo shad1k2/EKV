@@ -10,7 +10,7 @@ all: build
 
 build:
 	@echo "==> Building EKV Database..."
-	$(EC) -config $(ECF) -finalize -c_compile -batch
+	$(EC) -config $(ECF) -c_compile -batch
 
 run: build
 	@echo "==> Running EKV CLI..."
